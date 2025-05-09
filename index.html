@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Template</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<div class="max ubuntu-bold">
+    <body>
+        <div class="container ">
+            <div class="container-box">
+                <div>
+                <img class="fimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwQ5IAX0HMTfl0RT7wmGyt_Q6geD1Qrf1p91g8D9o_zDdN7_A6CwtjTErviT7CzUTmEX4&usqp=CAU" alt="">
+                </div>
+                <div class="health">
+                    <span class="healt">HealthDoc</span>
+                    <span class="connect">Connect</span>
+                </div>
+                <div class="form">
+                    <span class="medical">MEDICAL</span>
+                    <span class="formn">FORM</span>
+                </div>
+            </div>
+        </div>
+        <h2 class="info">PATIENT INFORMATION</h2>
+        <form action="">
+            <div class="first">
+                <div class="finame">
+                    <label for="fiadd">Full Name</label>
+                    <input class="ftext" type="text" placeholder="Your full name">
+                </div>
+                <div class="fidob">    
+                    <label for="dob">Date of birth</label> 
+                    <br>
+                    <input class="ftext" type="date" name="dob" id="dob">
+                    <br>
+                </div>    
+            </div>
+            <div class="first">
+                <div class="fiadd">
+                    <label for="gender">Gender</label>
+                    <br>
+                    <input class="fmale" type="radio" name="gender" id="male"><span class="mmale" >Male</span>
+                    <input class="fmale" type="radio" name="gender" id="female"><span class="mmale">Female</span>
+                    <br>
+                </div>
+                <div class="fiadd">
+                    <label for="address">Address</label>
+                    <br>
+                    <input class="ftext" type="text" placeholder="Bhaisepati,Lalitpur">
+                    <br>
+                </div>
+            </div>    
+            <div class="first">
+                <div class="fiadd"> 
+                    <label for="num">Phone Number</label>
+                    <br>
+                    <input class="ftext" type="tel" name="num" id="num" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="+9779800000000" >
+                    <br>
+                </div>
+                <div class="fiadd">    
+                    <label for="email">Email</label>
+                    <br>
+                    <input class="ftext" type="email" name="email" id="email"placeholder="example.gmail.com">
+                    <br>
+                </div>
+            </div>
+                <div>            
+                    <h2 class="fcontact">EMERGENCY CONTACT INFORMATION</h2>
+                </div>    
+            <div class="first"> 
+                <div class="fiadd">      
+                    <label for="fname">Full Name</label>
+                    <br>      
+                    <input class="ftext" type="text" placeholder="Your Full Name">
+                    <br>
+                </div>
+                <div class="fiadd">
+                    <label for="relationship">Relationship</label>
+                    <br> 
+                    <input class="ftext" type="text" placeholder="Mention your relation">
+                    <br>
+                </div>
+                <div class="fiadd"> 
+                    <label for="num">Phone Number</label>
+                    <br>
+                    <input class="ftext" type="tel" name="num" id="num" placeholder="+9779800000000" maxlength="10" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    <br>
+                </div>
+            </div>        
+            <div class="check">    
+                <div>
+                    <h2 class="history">MEDICAL HISTORY</h2><br>
+                    <label class="ques" for="fname" >Have you ever done any of the following condition?(Check all the apply)</label>
+                    <br>
+                  <div style="line-height: 2;">
+                    <input type="checkbox" name="Disease" id="" style="margin-right: 8px;">Heart Disease
+                    <br>
+                    <input type="checkbox" name="Disease" id="" style="margin-right: 8px;">Diabetes
+                    <br>
+                    <input type="checkbox" name="Disease" id="" style="margin-right: 8px;">Hypertension
+                    <br>
+                    <input type="checkbox" name="Disease" id=""style="margin-right: 8px;">Cancer
+                    <br>
+                    <input type="checkbox" name="Disease" id="" style="margin-right: 8px;">Other:<input class="other" type="text" name="space" id="">
+                    <br>
+                  </div>    
+                </div>
+                <div>
+                    <h2 class="vis">REASON FOR VISIT</h2>
+                    <label class="fmsg" for="msg">Describe your symptoms</label>
+                    <textarea class="texta" name="msg" id="msg" cols="30" rows="6"></textarea>
+                </div>
+            </div>
+                <h2 class="insu">INSURANCE INFORMATION</h2>
+                <form action="">
+            <div class="first">
+                <div class="fiadd">
+                    <label for="fname">Insurance Provider</label>
+                    <br> 
+                    <input class="ftext" type="text" placeholder="Provider Name">
+                    <br>
+                </div>
+                <div class="fiadd">    
+                    <label for="Pnum">Policy Number</label> 
+                    <br>
+                    <input class="ftext" type="tel" name="Pnum" id="Pnum" maxlength="11" placeholder="18-02-82-20565">
+                    <br>
+                </div>
+            </div>
+            <div>
+                <button style="font-size: 30px; border-radius: 12px; padding: 8px;margin-top: 10px;">Submit</button>
+            </div> 
+        </form>
+    </body>
+</div>           
+</html>
