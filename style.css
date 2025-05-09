@@ -40,432 +40,54 @@ label{
     color: gray;
     font-size: 14px;
 }  
-/* @media (min-width: 801px) and (max-width:1024px){
-    .max {
-        padding: 20px 20px 20px 20px;
-    }
-    .container{ 
-        padding: 20px;
-        border-radius: 25px;
-        border: 1px solid #0a0a0a; 
-        background: #f0fbfe;
-    }
-    .fimg{
-        width: 58px;
-        margin: 8px 0 8px 8px ;
-    }
-    .health{
-        padding-left: 20px;
-        margin: 8px 8px 8px 0;
-    }
-    .form{
-        width: 100%;
-        justify-content: right;
-        align-items: center;
-    }
-    .first{
-        display: flex;
-        gap: 10.5em;
-    }
-    .second{
-        display: flex;
-        gap: 15.2em;
-    }
-    .third{
-        display: flex;
-        gap: 17.1em;
-    }
-    .fourth{
-        display: flex;
-        gap: 7.4em;
-    }
-    .fifth{
-        display: flex;
-        gap: 12.8em;
-    }
-    .check{
-        display: flex;
-        gap: 2em;
-    }
-    .connect{
-        font-size: 28px;
-        color: gray;
-    }
-    .medical{
-        text-align: right;
-        font-size: 58px;
-        font-weight: 500;
-    }
-    .formn{
-        font-size: 54px; 
-        font-weight: 100;
-    }
-    label{
-        font-size: 26px;
-        font-weight: 400;
-    }
-    .info{
-        color: blue; 
-        font-size: 24px;
-        margin: 1em 0 6px 0;
-        font-weight: 600;
-    }
-    .finame{
-        line-height: 28px;
-    }
-    .ftext{
-        width: 131%; 
-        height: 38px;
-        background:#f0fbfe; 
-        padding-left: 12px; 
-        margin-bottom: 10px;
-    }
-    .fdob{
-        width: 219%; 
-        height: 38px;
-        background:#f0fbfe; 
-        padding-left: 12px; 
-        margin-bottom: 10px;
-        color: gray;
-    }
-    .fmale{
-        margin: 0px 13px 0 6px;
-        height: 17px;
-        width: 17px;
-    }
-    .ffemale{
-        margin: 0px 11px 10px 11px;
-        height: 17px;
-        width: 17px;
-    }
-    .faddress{
-        width: 208%; 
-        padding-left: 12px; 
-        height: 38px;
-        background:#f0fbfe;  
-        margin-bottom: 10px;
-    }
-    .fnum{
-        width: 206%; 
-        padding-left: 12px; 
-        height: 38px;
-        background:#f0fbfe;  
-        margin-bottom: 10px;
-    }
-    .snum{
-        width: 133%; 
-        padding-left: 12px; 
-        height: 38px;
-        background:#f0fbfe;  
-        margin-bottom: 10px;
-    }
-    .tnum{
-        width: 207%; 
-        padding-left: 12px; 
-        height: 38px;
-        background:#f0fbfe;  
-        margin-bottom: 10px;
-    }
-    .fnam{
-        width: 176%;
-        padding-left: 12px;
-        height: 38px;
-        background: #f0fbfe;
-        margin-bottom: 10px;
-    }
-    .other{
-        width: 80%; 
-        border-radius: 6px; 
-        height: 26px;
-        background:#f0fbfe; 
-        margin-left: 8px; 
-        padding-left: 12px; 
-    }
-    .fsubmit{
-        display: block; 
-        border-radius: 18px; 
-        font-size: larger; 
-        margin: 20px 20px 0 20px; 
-        padding: 10px 15px;
-    }
-    .insu{
-        color: blue; 
-        font-size: 18px; 
-        margin: 1em 0 6px 0;
-    }
-    .texta{
-        padding: 12px 6.1em 3.8em 12px; 
-        border-radius: 14px; 
-        border: 2px solid black;
-        background: #f0fbfe;
-    }
-    .healt{
-        font-size: 26px; 
-        font-weight: 500;  
-    }
-    .vis{
-        color: blue; 
-        font-size: 18px; 
-        margin: 1em 0 6px 0; 
-    }
-    .ques{
-        line-height: 0;
-        font-size: 19px;
-        font-weight: 500;
-    }
-    .fmsg{
-        font-weight: 500;
-        font-size: 19px;
-    }
-    .history{
-        color: blue; 
-        font-size: 19px; 
-        margin: 1em 0 0 0;
-    }
-    .rel{
-        width: 137%; 
-        padding-left: 12px; 
-        height: 38px;
-        background:#f0fbfe; 
-        margin-bottom: 10px;
-    }
-    .sname{
-        width: 145%; 
-        padding-left: 12px; 
-        height: 38px;
-        background:#f0fbfe;  
-        margin-bottom: 10px;
-    }
-    .fcontact{
-        color: blue; 
-        font-size: 18px; 
-        margin: 1em 0 6px 0;
-    }
-    .femail{
-        width: 208%; 
-        padding-left: 12px; 
-        height: 38px;
-        background:#f0fbfe;  
-        margin-bottom: 10px;
-    }
-    .mmale{
-        font-size: 24px;
-    } */
-
-/* } */
-/* @media screen and (max-width:767px){ 
-    .fimg{
-        width: 36px;
-    }
-    .healt{
-        font-size: 16px;
-    }
-    .connect{
-        font-size: 17px;
-        color: gray;
-    }
-    .medical{
-        text-align: right;
-        font-size: 16px;
-    }
-    .formn{
-        font-size: 16px; 
-        font-weight: 400;
-    }
-    .info{
-        color: blue; 
-        font-size: 18px;
-        margin: 2em 0 6px 0;
-    }
-    .finame{
-        line-height: 28px;
-    }
-    .ftext{
-        width: 100%; 
-        height: 30px;
-        background:#f0fbfe; 
-        padding-left: 12px; 
-        margin-bottom: 10px;
-    }
-    .fdob{
-        width: 100%; 
-        height: 30px;
-        background:#f0fbfe; 
-        padding-left: 12px; 
-        margin-bottom: 10px;
-        color: gray;
-    }
-    .fmale{
-        margin: 0px 8px;
-    }
-    .ffemale{
-        margin: 0px 8px 10px 0;
-    }
-    .faddress{
-        width: 100%; 
-        padding-left: 12px; 
-        height: 30px;
-        background:#f0fbfe;  
-        margin-bottom: 10px;
-    }
-    .fnum{
-        width: 100%; 
-        padding-left: 12px; 
-        height: 30px;
-        background:#f0fbfe;  
-        margin-bottom: 10px;
-    }
-    .snum{
-        width: 100%; 
-        padding-left: 12px; 
-        height: 30px;
-        background:#f0fbfe;  
-        margin-bottom: 10px;
-    }
-    .fnam{
-        width: 100%; 
-        padding-left: 12px; 
-        height: 30px;
-        background:#f0fbfe;  
-        margin-bottom: 10px;
-    }
-    .tnum{
-        width: 100%; 
-        padding-left: 12px; 
-        height: 30px;
-        background:#f0fbfe;  
-        margin-bottom: 10px;
-    }
-    .other{
-        width: 50%; 
-        border-radius: 6px; 
-        height: 24px;
-        background:#f0fbfe; 
-        margin-left: 8px; 
-        padding-left: 12px; 
-    }
-    .fsubmit{
-        display: block; 
-        border-radius: 18px; 
-        font-size: larger; 
-        margin: 20px 20px 0 20px; 
-        padding: 10px 15px;
-    }
-    .insu{
-        color: blue; 
-        font-size: 18px; 
-        margin: 2em 0 6px 0;
-    }
-    .texta{
-        padding: 18px 12px; 
-        border-radius: 14px; 
-        border: 2px solid black;
-        background: #f0fbfe;
-    }
-    .mmale{
-        font-size: 18px;
-    }
-    .vis{
-        color: blue; 
-        font-size: 18px; 
-        margin: 2em 0 6px 0; 
-    }
-    .ques{
-        line-height: 0;
-    }
-    .history{
-        color: blue; 
-        font-size: 18px; 
-        margin: 2em 0 0 0;
-    }
-    .rel{
-        width: 100%; 
-        padding-left: 12px; 
-        height: 30px;
-        background:#f0fbfe; 
-        margin-bottom: 10px;
-    }
-    .sname{
-        width: 100%; 
-        padding-left: 12px; 
-        height: 30px;
-        background:#f0fbfe;  
-        margin-bottom: 10px;
-    }
-    .fcontact{
-        color: blue; 
-        font-size: 18px; 
-        margin: 2em 0 6px 0;
-    }
-    .femail{
-        width: 100%; 
-        padding-left: 12px; 
-        height: 30px;
-        background:#f0fbfe;  
-        margin-bottom: 10px;
-    }
-} */
 @media screen and (max-width:767px){
     .max {
         padding: 20px;
         width: 100%;
     }
-    /* .container{ 
-        padding: 16px 22px;
-        border-radius: 25px;
-        border: 1px solid #0a0a0a; 
-        background: #f0fbfe;
-    } */
-    .fimg{
-        width: 54px;
-        margin: 8px 0 8px 8px ;
+    .container{ 
+        width: 100%;
     }
-    .health{
-        padding-left: 20px;
-        margin: 8px 8px 8px 0;
+    .fimg{
+        width: 30px;
     }
     .first{
-        /* display: flex; */
-        /* gap: 3em; */
         width: 100%;
     }
     .check{
-        /* display: flex; */
-        /* gap: 3em; */
         width: 100%;
     }
     .connect{
-        font-size: 28px;
+        font-size: 16px;
         color: gray;
     }
     .medical{
-        font-size: 50px;
+        font-size: 22px;
         font-weight: 500;
+        text-align: right;
     }
     .formn{
-        font-size: 48px; 
+        font-size: 20px; 
         font-weight: 100;
-    }
-    label{
-        font-size: 22px;
-        font-weight: 400;
     }
     .info{
         color: blue; 
-        font-size: 21px;
+        font-size: 22px;
         margin: 1em 0 6px 0;
-        font-weight: 600;
     }
     .finame{
         line-height: 28px;
-        width: 47%;
+        width: 100%;
     }
     .fidob{
-        width: 47%;
+        width: 100%;
+    }
+    .date{
+        color: gray;
     }
     .ftext{
         width: 100%; 
-        height: 38px;
+        height: 30px;
         background:#f0fbfe; 
         padding-left: 12px; 
         margin-bottom: 10px;
@@ -502,8 +124,11 @@ label{
         width: 100%;
     }
     .healt{
-        font-size: 26px; 
+        font-size: 15px; 
         font-weight: 500;  
+    }
+    .health{
+        padding-left: 10px;
     }
     .vis{
         color: blue; 
@@ -536,17 +161,11 @@ label{
         font-size: 18px; 
         margin: 1em 0 6px 0;
     }
-    .mmale{
-        font-size: 20px;
-    }
-    .fiadd{
-        width: 100%;
-    }
-    .fitel{
-        width:47%
-    }
-    .fiema{
-        width: 47%;
+    .submit{
+        font-size: 16px; 
+        border-radius: 12px; 
+        padding: 8px;
+        margin-top: 10px;
     }
 }
 @media screen and (min-width:768px) and (max-width:1024px){
@@ -691,5 +310,11 @@ label{
     }
     .fiema{
         width: 47%;
+    }
+    .submit{
+        font-size: 16px; 
+        border-radius: 12px; 
+        padding: 8px;
+        margin-top: 10px;
     }
 }
