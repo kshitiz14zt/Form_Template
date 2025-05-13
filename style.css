@@ -3,9 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+.fcontact{
+    color: rgba(79,140,205,255) ; 
+}
+.info{
+    color: rgba(79,140,205,255);
+}
+.vis{
+    color: rgba(79,140,205,255);
+}
+.history{
+    color: rgba(79,140,205,255);
+}
+.insu{
+    color: rgba(79,140,205,255);
+}
+/* .max {
+    padding: 40px;
+    width: 100%;
+    max-width: 820px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 40px auto;
+} this code is for desktop mode */
 .container{ 
     padding: 16px 22px;
-    border-radius: 25px;
+    border-radius: 20px;
     border: 1px solid #0a0a0a; 
     background: #f0fbfe;
 }
@@ -30,6 +52,7 @@ input{
 label{
     line-height: 2.5;
     margin-top: 8px;
+    font-weight: 600;
 }
 .ubuntu-bold {
     font-family: "Ubuntu", sans-serif;
@@ -70,8 +93,7 @@ label{
         font-weight: 100;
     }
     .info{
-        color: blue; 
-        font-size: 22px;
+        font-size: 18px;
         margin: 1em 0 6px 0;
     }
     .finame{
@@ -92,7 +114,7 @@ label{
         margin-bottom: 10px;
     }
     .fmale{
-        margin: 0px 13px 0 6px;
+        margin: 0px 8px 0 36px;
         height: 14px;
         width: 14px;
     }
@@ -111,7 +133,6 @@ label{
         padding: 10px 15px;
     }
     .insu{
-        color: blue; 
         font-size: 18px; 
         margin: 1em 0 6px 0;
     }
@@ -130,21 +151,19 @@ label{
         padding-left: 10px;
     }
     .vis{
-        color: blue; 
         font-size: 18px; 
         margin: 1em 0 6px 0; 
     }
     .ques{
         line-height: 0;
         font-size: 17px;
-        font-weight: 500;
+        font-weight: 600;
     }
     .fmsg{
-        font-weight: 500;
+        font-weight: 600;
         font-size: 19px;
     }
     .history{
-        color: blue; 
         font-size: 18px; 
         margin: 2em 0 0 0;
     }
@@ -156,8 +175,7 @@ label{
         margin-bottom: 10px;
     }
     .fcontact{
-        color: blue; 
-        font-size: 18px; 
+        font-size: 17px; 
         margin: 1em 0 6px 0;
     }
     .submit{
@@ -167,7 +185,7 @@ label{
         margin-top: 10px;
     }
 }
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (min-width:768px) and (max-width:1023px){
     .max {
         padding: 40px;
         width: 100%;
@@ -203,6 +221,7 @@ label{
     .medical{
         font-size: 50px;
         font-weight: 500;
+        margin-right: 8px
     }
     .formn{
         font-size: 48px; 
@@ -213,7 +232,7 @@ label{
         font-weight: 400;
     }
     .info{
-        color: blue; 
+        color: #71a3e8; 
         font-size: 21px;
         margin: 1em 0 6px 0;
         font-weight: 600;
@@ -233,7 +252,7 @@ label{
         margin-bottom: 10px;
     }
     .fmale{
-        margin: 0px 13px 0 6px;
+        margin: 0px 13px 0 36px;
         height: 14px;
         width: 14px;
     }
@@ -252,7 +271,6 @@ label{
         padding: 10px 15px;
     }
     .insu{
-        color: blue; 
         font-size: 18px; 
         margin: 1em 0 6px 0;
     }
@@ -268,7 +286,6 @@ label{
         font-weight: 500;  
     }
     .vis{
-        color: blue; 
         font-size: 18px; 
         margin: 1em 0 6px 0; 
     }
@@ -282,7 +299,6 @@ label{
         font-size: 19px;
     }
     .history{
-        color: blue; 
         font-size: 18px; 
         margin: 2em 0 0 0;
     }
@@ -294,7 +310,156 @@ label{
         margin-bottom: 10px;
     }
     .fcontact{
-        color: blue; 
+        font-size: 18px; 
+        margin: 1em 0 6px 0;
+    }
+    .mmale{
+        font-size: 20px;
+    }
+    .fiadd{
+        width: 100%;
+    }
+    .fitel{
+        width:47%
+    }
+    .fiema{
+        width: 47%;
+    }
+    .submit{
+        font-size: 16px; 
+        border-radius: 12px; 
+        padding: 8px;
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width:1680px){
+    .max {
+        padding: 40px;
+        width: 100%;
+        max-width: 820px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 80px auto;
+    }
+    .container{ 
+        padding: 16px 22px;
+        border-radius: 25px;
+        border: 1px solid #0a0a0a; 
+        background: #f0fbfe;
+    }
+    .fimg{
+        width: 54px;
+        margin: 8px 0 8px 8px ;
+    }
+    .health{
+        padding-left: 20px;
+        margin: 8px 8px 8px 0;
+    }
+    .first{
+        display: flex;
+        gap: 3em;
+        width: 100%;
+    }
+    .check{
+        display: flex;
+        gap: 3em;
+        width: 100%;
+    }
+    .connect{
+        font-size: 28px;
+        color: gray;
+    }
+    .medical{
+        font-size: 50px;
+        font-weight: 500;
+        margin-right: 8px;
+    }
+    .formn{
+        font-size: 48px; 
+        font-weight: 100;
+    }
+    label{
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .info{
+        color: rgba(49,115,167,255); 
+        font-size: 21px;
+        margin: 1em 0 6px 0;
+        font-weight: 600;
+    }
+    .finame{
+        line-height: 28px;
+        width: 47%;
+    }
+    .fidob{
+        width: 47%;
+    }
+    .ftext{
+        width: 100%; 
+        height: 38px;
+        background:#f0fbfe; 
+        padding-left: 12px; 
+        margin-bottom: 10px;
+    }
+    .fmale{
+        margin: 0px 13px 0 36px;
+        height: 14px;
+        width: 14px;
+    }
+    .other{
+        width: 74%; 
+        border-radius: 6px; 
+        height: 24px;
+        background:#f0fbfe; 
+        margin-left: 8px; 
+        padding-left: 12px; 
+    }
+    .fsubmit{
+        border-radius: 18px; 
+        font-size: larger; 
+        margin: 20px 20px 0 20px; 
+        padding: 10px 15px;
+    }
+    .insu{
+        font-size: 18px; 
+        margin: 1em 0 6px 0;
+    }
+    .texta{
+        padding: 12px 6em 5em 12px; 
+        border-radius: 14px; 
+        border: 2px solid black;
+        background: #f0fbfe;
+        width: 100%;
+    }
+    .healt{
+        font-size: 26px; 
+        font-weight: 500;  
+    }
+    .vis{
+        font-size: 18px; 
+        margin: 1em 0 6px 0; 
+    }
+    .ques{
+        line-height: 0;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .fmsg{
+        font-weight: 500;
+        font-size: 19px;
+    }
+    .history{
+        font-size: 18px; 
+        margin: 2em 0 0 0;
+    }
+    .sname{
+        width:100% ; 
+        padding-left: 12px; 
+        height: 38px;
+        background:#f0fbfe;  
+        margin-bottom: 10px;
+    }
+    .fcontact{
         font-size: 18px; 
         margin: 1em 0 6px 0;
     }
