@@ -68,6 +68,8 @@ label{
     }
     .container{ 
         width: 100%;
+        z-index: 1;
+        position: relative;
     }
     .fimg{
         width: 36px;
@@ -187,7 +189,7 @@ label{
     }
     .footer{
         text-align: center;
-        margin-top: 8px;
+        margin-top: 24px;
     }
     .footerName{
         font-size: 15px;
@@ -216,8 +218,8 @@ label{
         position: absolute;
         bottom: -20px;
         left: -69px;
-        width: 161px;
-        height: 120px;
+        width: 147px;
+        height: 114px;
         background-color: #00aeff52;
         border-top-right-radius: 112px;
     }
@@ -376,6 +378,7 @@ label{
     .footer{
         text-align: center;
         position: absolute;
+        margin-top: 24px;
     }
     .circle{
         position: relative;
@@ -561,6 +564,7 @@ label{
     }
     .footer{
         text-align: center;
+        margin-top: 24px;
     }
     .circle{
         position: relative;
