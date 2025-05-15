@@ -194,6 +194,33 @@ label{
         opacity: 0.8;
         margin-left: 6px;
     }
+    .circle{
+        position: relative;
+    }    
+    .circle::before {
+        content: '';
+        position: absolute;
+        top: -62px;
+        right: -57px;
+        width: 108px;
+        height: 158px;
+        background-color: #00aeff52;
+        border-bottom-left-radius: 112px;
+        z-index: 0;
+    }
+    .circleOne{
+    position: relative;
+    }    
+    .circleOne::before {
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        left: -69px;
+        width: 161px;
+        height: 120px;
+        background-color: #00aeff52;
+        border-top-right-radius: 112px;
+    }
 }
 @media screen and (min-width:768px) and (max-width:1023px){
     .max {
@@ -391,6 +418,8 @@ label{
         border-radius: 25px;
         border: 1px solid #0a0a0a; 
         background: #f0fbfe;
+        z-index: 1;
+        position: relative;
     }
     .fimg{
         width: 65px;
@@ -539,10 +568,10 @@ label{
     .circle::before {
         content: '';
         position: absolute;
-        top: -41px;
+        top: -25px;
         right: -40px;
-        width: 114px;
-        height: 169px;
+        width: 108px;
+        height: 158px;
         background-color: #00aeff52;
         border-bottom-left-radius: 112px;
         z-index: 0;
@@ -553,8 +582,8 @@ label{
     .circleOne::before {
         content: '';
         position: absolute;
-        bottom: -92px;
-        left: -41px;
+        bottom: -40px;
+        left: -40px;
         width: 154px;
         height: 154px;
         background-color: #00aeff52;
