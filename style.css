@@ -23,7 +23,7 @@
 }
 .submit{
     text-align: center;
-    margin-top: 25px;
+    margin-top: 8px;
 }
 .footer{
     margin: 10px ;
@@ -182,12 +182,12 @@ label{
     .submitName{
         border-radius: 12px; 
         padding: 6px;
-        margin-top: 10px;
         width: 28%;
         font-size: 20px;
         border: 2px solid black;
         color: black;
         text-decoration:none;
+        display: inline-block;
     }
     .footer{
         text-align: center;
@@ -372,6 +372,7 @@ label{
         border: 2px solid black;
         color: black;
         text-decoration:none;
+        display: inline-block;
     }
     .footerName{
         font-weight: 400;
@@ -563,6 +564,7 @@ label{
         border: 2px solid black;
         color: black;
         text-decoration:none;
+        display: inline-block;
     }
     .footerName{
         font-weight: 400;
