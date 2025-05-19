@@ -211,7 +211,7 @@ label{
         content: '';
         position: absolute;
         top: -62px;
-        right: -57px;
+        right: -20px;
         width: 108px;
         height: 158px;
         background-color: #00aeff52;
@@ -421,7 +421,7 @@ label{
         border-top-right-radius: 153px;
     }
 }
-@media screen and (min-width: 1024px) and (max-width:1680px){
+@media screen and (min-width: 1024px) and (max-width:2080px){
     .max {
         padding: 26px 40px 40px 40px;
         width: 100%;
